@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCt4VKs5rPaI8F9LkbFpXDIfa4aRYpsI0E",
-  authDomain: "social-media-app-9acd8.firebaseapp.com",
-  projectId: "social-media-app-9acd8",
-  storageBucket: "social-media-app-9acd8.appspot.com",
-  messagingSenderId: "368318175961",
-  appId: "1:368318175961:web:3decffdc8aee8df3af7cc8",
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_FIREBASEDOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_ID",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID",
 };
 
 export const app = initializeApp(firebaseConfig);
